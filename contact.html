@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" contente="Eglise NewLife Kinshasa">
+    <link href="https : //fonts.googleapis.com/css2?family= Raleway :ital,wght@1,900 & display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">   <link rel="shortcut icon" href="Image/images (2).jpeg">
+    <title>Mub Archiitecture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<header>
+    <nav class="navbar">
+        <a href="#" class="nav-logo">
+            <img src="image/IMG-20240319-WA0035.jpg" alt="Logo">
+        </a>
+
+        <button id="menu-toggle-button" class="fas"></button>
+
+        <ul class="nav-menu" id="nav-menu">
+            <li><a href="accueil.html">Accueil </a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="background-projets">
+  <div class="texte-projets-centre">
+    <h1 class="titre-nos-projets"></h1>
+    <!-- <p class="slogan-nos-projets">Des solutions efficaces, modernes et sur mesure.</p> -->
+  </div>
+</div>
+
+
+    
+  <div class="contact-container">
+    <div class="contact-left">
+        <h2>Contactez-nous</h2>
+        <p>Nous sommes à votre écoute pour toute question. Vous pouvez nous contacter par téléphone, par email, ou en vous rendant directement à notre adresse.</p>
+
+        <div class="contact-info">
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <strong>Adresse :</strong>
+                    <p>RDC, Bukavu, Av.Saïo</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-phone-alt"></i>
+                <div>
+                    <strong>Téléphone :</strong>
+                    <p>+243 977 804 167</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <strong>Email :</strong>
+                    <p>davidamisidalvador@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-right">
+        <img src="image/IMG-20240517-WA0257(1).jpg" alt="Contact Image">
+        <div class="contact-links">
+            <a href="tel:+243979143408"><i class="fas fa-phone-alt"></i> Nous appeler</a>
+            <a href="mailto:danielamisi@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+            <a href="mailto:support@exemple.com"><i class="fas fa-envelope"></i> Support</a>
+        </div>
+        <a  onclick="Popup" class="button order-now">Order Now</a>
+    </div>
+</div>
+  </main>
+
+<!-- Bouton WhatsApp -->
+<a href="https://wa.me/243979143408?text=Bonjour%2C%20je%20souhaite%20avoir%20plus%20d'informations" class="whatsapp-float" target="_blank" aria-label="Contact WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleBtn = document.getElementById("menu-toggle-button");
+    const navMenu = document.getElementById("nav-menu");
+
+    toggleBtn.addEventListener("click", () => {
+      navMenu.classList.toggle("active");
+      toggleBtn.classList.toggle("close-icon");
+    });
+  });
+</script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
